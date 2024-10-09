@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+h1,h2,h3,h4,h5,h6,p,figure{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* how work section starts here */
+
+.how-does-work {
+    background: #F3F3F3;
+    padding: 8rem 0;
+}
+
+.how-does-work-container {
+    background: #018F58;
+    border-radius: 2.4rem;
+    padding: 3.2rem;
+}
+
+.section-heading {
+    font-size: 4.8rem;
+    line-height: 1.15;
+    color: #fff;
+    font-weight: 500;
+}
+
+.column-para {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: rgb(255 255 255 / 70%);
+    margin-bottom: 1rem;
+}
+
+.column-para:last-child {
+    margin-bottom: 0;
+}
+
+.section-para {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: "ABeeZee", sans-serif;
+    color: rgb(255 255 255 / 70%);
+}
+
+.how-does-work-line {
+    margin: 3rem 0;
+    border: 1px solid #FFFFFF1F;
+}
+
+.how-does-work-item {
+    padding: 2.4rem;
+    border-radius: 2rem;
+    transition: all 0.3s;
+}
+
+.how-does-work-item:hover {
+    background: #192A1E;
+}
+
+.how-does-work-item figure {
+    width: 17rem;
+    height: 10rem;
+    margin-bottom: 3.6rem;
+}
+
+.how-does-work-item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.column-step-text {
+    font-weight: 700;
+    color: #FFFFFF80;
+    margin-bottom: 4px;
+}
+
+.column-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* bike battery charger tab section css starts here */
+
+.bike-battery-charger {
+    background: #018F58;
+    padding: 10rem 0;
+}
+
+.bike-battery-charger .section-heading {
+    margin-bottom: 2.4rem;
+}
+
+.battery-charger-tab-container {
+    margin-top: 8rem;
+}
+
+.product-item {
+    background: #ffffff;
+    box-shadow: 0px 4px 5px 0px;
+    border-radius: 1.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: center;
+    padding: 8px;
+}
+
+.product-item figure {
+    background: rgba(240, 240, 240, 1);
+    border-radius: 1.2rem;
+    width: 100%;
+    height: 16.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item figure img {
+    width: 100%;
+    height: 11rem;
+    object-fit: contain;
+}
+
+.product-item-content {
+    padding: 1.5rem 0.3rem .8rem;
+}
+
+.product-heading {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.product-para {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+.custom-btn {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(7, 26, 13, 1);
+    line-height: 20px;
+    background: rgba(125, 213, 67, 0.12);
+    padding: 1.2rem;
+    border-radius: 5rem;
+    border: 1px solid rgba(1, 143, 88, 1);
+    transition: all 0.3s;
+}
+
+.custom-btn:hover {
+    background: rgba(1, 143, 88, 1);
+    color: #fff;
+}
+
+.battery-charger-tabs {
+    border: 0;
+    background: rgba(0, 0, 0, 0.12);
+    max-width: max-content;
+    margin-left: auto;
+    border-radius: 7rem;
+    padding: 0.8rem;
+}
+
+.battery-charger-tabs .nav-item .nav-link {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    padding: 1.2rem 3.6rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    border: 0;
+    border-radius: 5rem;
+}
+
+.battery-charger-tabs .nav-item .nav-link.active, 
+.battery-charger-tabs .nav-item .nav-link:hover {
+    background: rgba(7, 26, 13, 1);
+}
+
+
+
+
+
+
+
+/* mobile responsive css starts here */
+
+@media (max-width:1399px) {
+    .bike-battery-charger {
+        background: #018F58;
+        padding: 7rem 0;
+    }
+    .section-heading {
+        font-size: 4.4rem;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    .how-does-work, .bike-battery-charger {
+        padding: 4rem 0;
+    }
+    .how-does-work-top-row .section-para {
+        margin-top: 1rem;
+    }
+    .battery-charger-tabs {
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .battery-charger-tab-container {
+        margin-top: 4rem;
+    }
+}
+
+
+@media (max-width:767px) {
+    html{
+        font-size: 9px;
+    }
+    .how-does-work-container {
+        padding: 2rem;
+    }
+    .how-does-work-item {
+        padding: 1rem;
+    }
+}
+
+@media (max-width:576px) {
+    html{
+        font-size: 9px;
+    }
+    .bike-battery-charger .section-heading br{
+        display: none;
+    }
+}

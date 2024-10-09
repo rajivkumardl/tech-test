@@ -265,4 +265,7 @@ a:hover{
     .bike-battery-charger .section-heading br{
         display: none;
     }
+    .section-heading {
+    font-size: 3.2rem;
+}
 }
